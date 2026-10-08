@@ -1,0 +1,40 @@
+{
+  "exportedAt": "2026-10-08T01:00:00.000Z",
+  "source": "https://notes.flyme.cn/notes",
+  "tags": [{ "id": "-1", "name": "全部", "count": 4 }, { "id": "21", "name": "随手记", "count": 4 }],
+  "notes": [
+    {
+      "uuid": "e1",
+      "title": "空正文的笔记",
+      "groupStatus": "21",
+      "status": "0",
+      "createTime": 1700000000000,
+      "body": ""
+    },
+    {
+      "uuid": "e2",
+      "title": "列表嵌套与多段",
+      "groupStatus": "21",
+      "status": "0",
+      "createTime": 1700000100000,
+      "files": { "pic.png": "https://example.com/pic.png" },
+      "body": "[{\"state\":51,\"children\":[{\"state\":53,\"children\":[{\"state\":0,\"text\":\"第一项\"},{\"state\":0,\"text\":\"同一项的第二段\"}]},{\"state\":53,\"children\":[{\"state\":50,\"children\":[{\"state\":53,\"children\":[{\"state\":0,\"text\":\"嵌套有序项\"}]}]}]}]},{\"state\":51,\"children\":[{\"state\":53,\"children\":[{\"state\":0,\"text\":\"另一个列表\",\"span\":\"[{\\\"span\\\":1,\\\"start\\\":3,\\\"end\\\":5,\\\"param\\\":1}]\"},{\"state\":3,\"name\":\"pic.png\"}]}]}]"
+    },
+    {
+      "uuid": "e3",
+      "title": "样式与 emoji 😀 测试",
+      "groupStatus": "21",
+      "status": "0",
+      "createTime": 1700000200000,
+      "body": "[{\"state\":0,\"text\":\"高亮和删除线\",\"span\":\"[{\\\"span\\\":19,\\\"start\\\":0,\\\"end\\\":2,\\\"param\\\":\\\"\\\"},{\\\"span\\\":18,\\\"start\\\":3,\\\"end\\\":6,\\\"param\\\":\\\"\\\"}]\"},{\"state\":60,\"level\":6,\"text\":\"六级标题\"},{\"state\":0,\"text\":\"emoji 😀 后面的字\",\"span\":\"[{\\\"span\\\":1,\\\"start\\\":9,\\\"end\\\":12,\\\"param\\\":1}]\"},{\"state\":0,\"text\":\"\"},{\"state\":0,\"text\":\"最后一段\"}]"
+    },
+    {
+      "uuid": "e4",
+      "title": "标题里有斜杠/冒号:和引号\"的笔记",
+      "groupStatus": "不存在的分类",
+      "status": "0",
+      "createTime": 1700000300000,
+      "body": "[{\"state\":0,\"text\":\"正文\",\"span\":\"\"}]"
+    }
+  ]
+}

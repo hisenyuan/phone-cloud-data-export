@@ -1,0 +1,247 @@
+{
+  "runId": "sample",
+  "startedAt": "2026-10-08T01:00:00Z",
+  "source": "https://cloud.flyme.cn/browser/sms-list.jsp",
+  "tkscsrf": "sample",
+  "folders": {
+    "0": { "count": 3, "fetched": 3 },
+    "3": { "count": 1, "fetched": 1 },
+    "4": { "count": 1, "fetched": 1 }
+  },
+  "threads": [
+    {
+      "key": "0|13900000001",
+      "type": 0,
+      "contact": "13900000001",
+      "name": "",
+      "dialogCount": 2,
+      "messages": [
+        {
+          "id": 1000001,
+          "uuId": "00000001-0000-4000-8000-000000000001",
+          "userId": 1000001,
+          "lastUpdate": 1479277782447,
+          "status": "U",
+          "mobilenumber": "+8613900000001",
+          "uniformNumber": "13900000001",
+          "body": "晚上一起吃饭吗",
+          "smsStatus": -1,
+          "type": 1,
+          "senddate": 1421289148000,
+          "occurdate": 1421289152940,
+          "senderName": null,
+          "favourite": 0,
+          "port": 0,
+          "photo_type": 0,
+          "contactId": null,
+          "protocol": 0
+        },
+        {
+          "id": 1000002,
+          "uuId": "00000001-0000-4000-8000-000000000002",
+          "userId": 1000001,
+          "lastUpdate": 1479277782447,
+          "status": "U",
+          "mobilenumber": "13900000001",
+          "uniformNumber": "13900000001",
+          "body": "好，六点到",
+          "smsStatus": -1,
+          "type": 2,
+          "senddate": 1421291115000,
+          "occurdate": 1421291115000,
+          "senderName": null,
+          "favourite": 0,
+          "port": 0,
+          "photo_type": 0,
+          "contactId": null,
+          "protocol": 0
+        }
+      ]
+    },
+    {
+      "key": "4|13900000001",
+      "type": 4,
+      "contact": "13900000001",
+      "name": "",
+      "dialogCount": 2,
+      "messages": [
+        {
+          "id": 1000002,
+          "uuId": "00000001-0000-4000-8000-000000000002",
+          "userId": 1000001,
+          "lastUpdate": 1479277782447,
+          "status": "U",
+          "mobilenumber": "13900000001",
+          "uniformNumber": "13900000001",
+          "body": "好，六点到",
+          "smsStatus": -1,
+          "type": 2,
+          "senddate": 1421291115000,
+          "occurdate": 1421291115000,
+          "senderName": null,
+          "favourite": 0,
+          "port": 0,
+          "photo_type": 0,
+          "contactId": null,
+          "protocol": 0
+        },
+        {
+          "id": 1000004,
+          "uuId": "00000001-0000-4000-8000-000000000004",
+          "userId": 1000001,
+          "lastUpdate": 1479277782447,
+          "status": "U",
+          "mobilenumber": "+8613900000001",
+          "uniformNumber": "13900000001",
+          "body": "到楼下了，下来开门",
+          "smsStatus": -1,
+          "type": 1,
+          "senddate": 1479277781000,
+          "occurdate": 1479277781000,
+          "senderName": null,
+          "favourite": 0,
+          "port": 0,
+          "photo_type": 0,
+          "contactId": null,
+          "protocol": 0
+        }
+      ]
+    },
+    {
+      "key": "0|13900000002",
+      "type": 0,
+      "contact": "13900000002",
+      "name": "",
+      "dialogCount": 1,
+      "messages": [
+        {
+          "id": 1000005,
+          "uuId": "00000002-0000-4000-8000-000000000001",
+          "userId": 1000001,
+          "lastUpdate": 1479277782447,
+          "status": "U",
+          "mobilenumber": "13900000002",
+          "uniformNumber": "13900000002",
+          "body": "第一行\r\n第二行，这条用来测 CRLF",
+          "smsStatus": -1,
+          "type": 1,
+          "senddate": 1421289148000,
+          "occurdate": 1421289152940,
+          "senderName": null,
+          "favourite": 0,
+          "port": 0,
+          "photo_type": 0,
+          "contactId": null,
+          "protocol": 0
+        }
+      ]
+    },
+    {
+      "key": "3|10690000000000000001",
+      "type": 3,
+      "contact": "10690000000000000001",
+      "name": "",
+      "dialogCount": 2,
+      "messages": [
+        {
+          "id": 1000006,
+          "uuId": "00000003-0000-4000-8000-000000000001",
+          "userId": 1000001,
+          "lastUpdate": 1641575524893,
+          "status": "U",
+          "mobilenumber": "10690000000000000001",
+          "uniformNumber": "10690000000000000001",
+          "body": "【示例平台】这是一条通知短信，无需回复。",
+          "smsStatus": -1,
+          "type": 1,
+          "senddate": 1641575457000,
+          "occurdate": 1641575489751,
+          "senderName": null,
+          "favourite": 0,
+          "port": 0,
+          "photo_type": 0,
+          "contactId": null,
+          "protocol": 0
+        },
+        {
+          "id": 1000007,
+          "uuId": "00000003-0000-4000-8000-000000000002",
+          "userId": 1000001,
+          "lastUpdate": 1641530665643,
+          "status": "U",
+          "mobilenumber": "10690000000000000001",
+          "uniformNumber": "10690000000000000001",
+          "body": "【示例平台】您的验证码是 000000，5 分钟内有效。",
+          "smsStatus": -1,
+          "type": 1,
+          "senddate": 1641527810000,
+          "occurdate": 1641527812633,
+          "senderName": null,
+          "favourite": 0,
+          "port": 0,
+          "photo_type": 0,
+          "contactId": null,
+          "protocol": 0
+        }
+      ]
+    },
+    {
+      "key": "0|13900000003",
+      "type": 0,
+      "contact": "13900000003",
+      "name": "",
+      "dialogCount": 1,
+      "messages": [
+        {
+          "id": 1000008,
+          "uuId": "00000004-0000-4000-8000-000000000001",
+          "userId": 1000001,
+          "lastUpdate": 1557576707752,
+          "status": "U",
+          "mobilenumber": "+8613900000003",
+          "uniformNumber": "13900000003",
+          "body": "材料已经发到你邮箱了",
+          "smsStatus": -1,
+          "type": 2,
+          "senddate": 1554387803000,
+          "occurdate": 1554387805553,
+          "senderName": null,
+          "favourite": 0,
+          "port": 0,
+          "photo_type": 0,
+          "contactId": null,
+          "protocol": 0
+        }
+      ]
+    },
+    {
+      "key": "0|13900000004",
+      "type": 0,
+      "contact": "13900000004",
+      "name": "示例联系人",
+      "dialogCount": 1,
+      "messages": [
+        {
+          "id": 1000009,
+          "uuId": "00000005-0000-4000-8000-000000000001",
+          "userId": 1000001,
+          "lastUpdate": 1557576707752,
+          "status": "U",
+          "mobilenumber": "13900000004",
+          "uniformNumber": "13900000004",
+          "body": "收到，明天回复你",
+          "smsStatus": -1,
+          "type": 2,
+          "senddate": 1554387803000,
+          "occurdate": 1554387805553,
+          "senderName": null,
+          "favourite": 0,
+          "port": 0,
+          "photo_type": 0,
+          "contactId": null,
+          "protocol": 0
+        }
+      ]
+    }
+  ]
+}

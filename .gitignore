@@ -1,0 +1,11 @@
+.DS_Store
+node_modules/
+
+# 导出产物和原始数据，里面有个人内容，不要提交
+notes/
+sms/
+attachments/
+smartisan-notes-raw.json
+flyme-notes-raw.json
+flyme-sms-*-full.json
+flyme-sms-probe.json

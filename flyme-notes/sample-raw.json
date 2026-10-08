@@ -1,0 +1,41 @@
+{
+  "exportedAt": "2026-10-08T00:30:00.000Z",
+  "source": "https://notes.flyme.cn/notes",
+  "tags": [
+    { "id": "11", "name": "工作", "count": 2 },
+    { "id": "12", "name": "读书", "count": 1 }
+  ],
+  "notes": [
+    {
+      "uuid": "aaaa-1111",
+      "title": "示例笔记一",
+      "groupStatus": "11",
+      "status": "0",
+      "createTime": 1735689600000,
+      "modifyTime": 1735689600000,
+      "topdate": 0,
+      "remind": "",
+      "fontSize": 18,
+      "files": { "photo.jpg": "https://example.com/photo.jpg" },
+      "body": "[{\"state\":60,\"level\":2,\"text\":\"这是二级标题\",\"span\":\"\"},{\"state\":0,\"text\":\"普通段落，带加粗和链接。\",\"span\":\"[{\\\"span\\\":1,\\\"start\\\":6,\\\"end\\\":8,\\\"param\\\":1},{\\\"span\\\":17,\\\"start\\\":9,\\\"end\\\":11,\\\"param\\\":\\\"https://example.com\\\"}]\"},{\"state\":1,\"text\":\"待办一\"},{\"state\":2,\"text\":\"待办二\"},{\"state\":51,\"children\":[{\"state\":53,\"children\":[{\"state\":0,\"text\":\"项目 A\"}]},{\"state\":53,\"children\":[{\"state\":0,\"text\":\"项目 B\"},{\"state\":50,\"children\":[{\"state\":53,\"children\":[{\"state\":0,\"text\":\"嵌套项\"}]}]}]}]},{\"state\":3,\"name\":\"photo.jpg\"},{\"state\":5,\"name\":\"doc.pdf\",\"size\":1234}]"
+    },
+    {
+      "uuid": "bbbb-2222",
+      "title": "",
+      "groupStatus": "12",
+      "status": "0",
+      "createTime": 1760000000000,
+      "topdate": 1,
+      "remind": "{\"type\":1,\"time\":1760000000000}",
+      "body": "[{\"state\":0,\"text\":\"没有标题的笔记，第一行会被当作文件名。\",\"span\":\"\"},{\"state\":0,\"text\":\"第二段，斜体。\",\"span\":\"[{\\\"span\\\":7,\\\"start\\\":4,\\\"end\\\":6,\\\"param\\\":2}]\"}]"
+    },
+    {
+      "uuid": "cccc-3333",
+      "title": "回收站里的笔记",
+      "groupStatus": "11",
+      "status": "D",
+      "createTime": 1760100000000,
+      "body": "[{\"state\":0,\"text\":\"应该被跳过\",\"span\":\"\"}]"
+    }
+  ]
+}

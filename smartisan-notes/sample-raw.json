@@ -1,0 +1,85 @@
+{
+  "exported_at": "2026-10-08T00:00:00.000Z",
+  "source": "https://yun.smartisan.com/apps/note/",
+  "api": "https://yun.smartisan.com/apps/note/index.php",
+  "note_version": 1200000000,
+  "server_timestamp": 1760000000,
+  "counts": {
+    "fetched": 3,
+    "unique": 3,
+    "trash": 1,
+    "folder": 1
+  },
+  "folders": [
+    {
+      "uid": 1000001,
+      "sync_id": "seedemo01",
+      "title": "示例分类",
+      "position": 1,
+      "modify_time": 1511273591
+    },
+    {
+      "uid": 1000002,
+      "sync_id": "seedemo02",
+      "title": "示例日记",
+      "position": 2,
+      "modify_time": 1511273591
+    }
+  ],
+  "notes": [
+    {
+      "uid": 1000001,
+      "sync_id": "00demoaaa",
+      "seqid": "1106367541401362432",
+      "eseqid": "1106367259615436800",
+      "folderId": "0",
+      "favorite": 0,
+      "markdown": 0,
+      "pos": 100,
+      "call_timestamp": 0,
+      "modify_time": 1552613545131,
+      "title": "示例：多行正文",
+      "detail": "第一行。\n第二行，紧挨着上一行。\n\n这是新的一段。",
+      "position_in_folder": 1,
+      "folder_type": 0,
+      "formatting_mode": 0,
+      "is_locked": 0
+    },
+    {
+      "uid": 1000002,
+      "sync_id": "00demobbb",
+      "seqid": "1106367541401362433",
+      "eseqid": "1106367259615436801",
+      "folderId": "seedemo01",
+      "favorite": 1,
+      "markdown": 0,
+      "pos": 50,
+      "call_timestamp": 0,
+      "modify_time": 1600000000000,
+      "title": "示例：归到分类并且加星",
+      "detail": "**这里的星号是纯文本，不是 Markdown 加粗。**",
+      "position_in_folder": 2,
+      "folder_type": 0,
+      "formatting_mode": 0,
+      "is_locked": 0
+    },
+    {
+      "uid": 1000003,
+      "sync_id": "00democcc",
+      "seqid": "1106367541401362434",
+      "eseqid": "1106367259615436802",
+      "folderId": "0",
+      "favorite": 0,
+      "markdown": 0,
+      "pos": 10,
+      "call_timestamp": 0,
+      "modify_time": 1700000000000,
+      "title": "图片便签",
+      "detail": "<image w=95 h=53 describe= name=example-1.jpg><image w=720 h=3099 describe= name=example-2.jpg>",
+      "position_in_folder": 3,
+      "folder_type": 3,
+      "formatting_mode": 0,
+      "is_locked": 0
+    }
+  ]
+}
