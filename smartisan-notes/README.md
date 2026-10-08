@@ -56,10 +56,10 @@ node 3-convert.js smartisan-notes-raw.json notes \
 - `{"code":1,"errInfo":{"2109":"便签web标签错误"}}`：写请求没带 `tab_id`。前端每次加载页面随机生成一个 8 位值，脚本会自己生成，改脚本时别删掉
 - `note/deleteAll` 执行了但没删掉任何东西：它对不在回收站的便签不生效。清空必须两步，先 `updateFolder` 移进回收站，再 `deleteAll`
 
-## 三个已知的坑
+## 三个需要注意的地方
 
-云端没有创建时间。接口只返回 `modify_time`，370 条便签的字段里都没有 `create_time`。`seqid` 和 `eseqid` 是 18 至 19 位整数，看着像时间戳，实际把所有位移和秒、毫秒、微秒、纳秒都试过，反推出来的纪元离散度最小也有正负两个月，是同步序列号。所以 frontmatter 里的 `created` 一律写 `null`，没有拿修改时间冒充。真要创建时间，只能从当年那台锤子手机的本地数据库里取。
+创建时间拿不到。接口只返回 `modify_time`，`created` 一律写 `null`，没有拿修改时间冒充。`seqid` 和 `eseqid` 试过反推，是同步序列号，不是时间戳。排查过程写在[《锤子便签导出到本地 Markdown》](https://hisen.me/20261008-smartisan-notes-export/)里。
 
-标题不是独立字段。服务端的 `title` 是拿正文第一行非空文字生成的，超过 80 个显示宽度截断。导出的文件名也用这个值，不另外编。
+标题不是独立字段。服务端的 `title` 是拿正文第一行非空文字生成的，超过 80 个显示宽度截断。导出的文件名也用这个值。
 
-图片是自定义标记，不是 Markdown：`<image w=宽度 h=高度 describe=描述 name=文件名>`。文件地址是 `https://yun.smartisan.com/apps/note/notesimage/<name>`，要登录态才取得到。
+图片是自定义标记：`<image w=宽度 h=高度 describe=描述 name=文件名>`。文件地址是 `https://yun.smartisan.com/apps/note/notesimage/<name>`，要登录态才取得到。

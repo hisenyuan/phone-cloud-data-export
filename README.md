@@ -6,6 +6,12 @@
 
 这三套脚本把数据一次拉下来，转成不依赖任何厂商的本地文件。
 
+每套的来龙去脉写在博客里，接口怎么摸出来、坑怎么踩的都记在那儿：
+
+- [锤子便签导出到本地 Markdown](https://hisen.me/20261008-smartisan-notes-export/)
+- [魅族云便签导出到本地 Markdown](https://hisen.me/20261008-flyme-notes-export/)
+- [魅族云短信导出成 CSV 和 Markdown](https://hisen.me/20261008-flyme-sms-export/)
+
 | 目录 | 平台 | 云端地址 |
 | --- | --- | --- |
 | `smartisan-notes/` | 锤子便签 | `yun.smartisan.com` |
