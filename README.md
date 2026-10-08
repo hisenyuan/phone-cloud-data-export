@@ -16,13 +16,15 @@
 - [魅族云便签导出到本地 Markdown](https://hisen.me/20261008-flyme-notes-export/)
 - [魅族云短信导出成 CSV 和 Markdown](https://hisen.me/20261008-flyme-sms-export/)
 
-## 三个模块
+## 仓库目录
 
-| 模块 | 平台 | 云端地址 |
+三个模块对应本仓库的三个目录，点目录名进去看各自的用法：
+
+| 目录 | 平台 | 云端地址 |
 | --- | --- | --- |
-| [smartisan-notes](./smartisan-notes) | 锤子便签 | [yun.smartisan.com](https://yun.smartisan.com) |
-| [flyme-notes](./flyme-notes) | 魅族云便签 | [notes.flyme.cn](https://notes.flyme.cn) |
-| [flyme-sms](./flyme-sms) | 魅族云短信 | [cloud.flyme.cn](https://cloud.flyme.cn) |
+| [`smartisan-notes/`](https://github.com/hisenyuan/phone-cloud-data-export/tree/main/smartisan-notes) | 锤子便签 | [yun.smartisan.com](https://yun.smartisan.com) |
+| [`flyme-notes/`](https://github.com/hisenyuan/phone-cloud-data-export/tree/main/flyme-notes) | 魅族云便签 | [notes.flyme.cn](https://notes.flyme.cn) |
+| [`flyme-sms/`](https://github.com/hisenyuan/phone-cloud-data-export/tree/main/flyme-sms) | 魅族云短信 | [cloud.flyme.cn](https://cloud.flyme.cn) |
 
 ## 怎么用
 
