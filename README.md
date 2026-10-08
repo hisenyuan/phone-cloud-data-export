@@ -1,5 +1,7 @@
 # phone-cloud-data-export
 
+[![GitHub](https://img.shields.io/badge/GitHub-hisenyuan%2Fphone--cloud--data--export-181717?logo=github&logoColor=white)](https://github.com/hisenyuan/phone-cloud-data-export)
+
 把旧手机云端的便签和短信导出来，存成本地的 Markdown 和 CSV。
 
 国内几家的云服务都在收缩。锤子便签的云端还挂在欢喜云，手机端早就不更新了；魅族的云便签和云短信也只剩网页版一个入口。网页版都没有批量导出，只能一页页翻。
