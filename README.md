@@ -6,17 +6,13 @@
 
 这三套脚本把数据一次拉下来，转成不依赖任何厂商的本地文件。
 
-每套的来龙去脉写在博客里，接口怎么摸出来、坑怎么踩的都记在那儿：
+## 三个模块
 
-- [锤子便签导出到本地 Markdown](https://hisen.me/20261008-smartisan-notes-export/)
-- [魅族云便签导出到本地 Markdown](https://hisen.me/20261008-flyme-notes-export/)
-- [魅族云短信导出成 CSV 和 Markdown](https://hisen.me/20261008-flyme-sms-export/)
-
-| 目录 | 平台 | 云端地址 |
+| 模块 | 平台 | 云端地址 |
 | --- | --- | --- |
-| `smartisan-notes/` | 锤子便签 | `yun.smartisan.com` |
-| `flyme-notes/` | 魅族云便签 | `notes.flyme.cn` |
-| `flyme-sms/` | 魅族云短信 | `cloud.flyme.cn` |
+| [smartisan-notes](./smartisan-notes) | 锤子便签 | [yun.smartisan.com](https://yun.smartisan.com) |
+| [flyme-notes](./flyme-notes) | 魅族云便签 | [notes.flyme.cn](https://notes.flyme.cn) |
+| [flyme-sms](./flyme-sms) | 魅族云短信 | [cloud.flyme.cn](https://cloud.flyme.cn) |
 
 ## 怎么用
 
@@ -41,6 +37,14 @@
 - 抓取脚本只调只读接口。唯一一个写操作的脚本是 `smartisan-notes/5-delete.js`，默认 `DRY_RUN = true`，只打印清单不动数据
 - 仓库里只有脚本和构造的样例数据，没有真实数据。原始 JSON 和导出的 md、csv 都在你自己机器上
 - 站点接口会变。变了先看对应目录 README 的「报错对照」，再回前端 JS 里核对接口
+
+## 背景
+
+这几套脚本是为了把散在各处的笔记收敛到本地，顺手把短信也一起拿下来。接口怎么摸出来的、坑怎么踩的，都写在博客里：
+
+- [锤子便签导出到本地 Markdown](https://hisen.me/20261008-smartisan-notes-export/)
+- [魅族云便签导出到本地 Markdown](https://hisen.me/20261008-flyme-notes-export/)
+- [魅族云短信导出成 CSV 和 Markdown](https://hisen.me/20261008-flyme-sms-export/)
 
 ## 环境
 
